@@ -1,25 +1,20 @@
+import React from "react";
+import { Link } from "react-router-dom";
 import "./navbar.css";
+import { About } from '../about/About.js';
 
 function Navbar() {
   return (
-    <nav>
-       <div className="navMain">
-          <h2>GGAD</h2>
-            <ul className="navItem">
-                <li><a href="/">About Us</a></li>
-                <li> <a href="/">More information</a></li>
-                <li> <a href="/">Founders</a></li>
-                <li> <a href="/">Donate</a></li>
-            </ul> 
-
-        {/* list for the navbar menu button */}
-        <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ul>
+    <div className="nav">
+      <div className="nav-logo">GGAD</div>
+      <ul className="nav-menu">
+        <li><a href="/">Home</a></li>
+        <li><Link to="/About">About</Link></li>
+        <li>Team</li>
+        <li>Current Projects</li>
+        <li>Achivements</li>
+      </ul>
     </div>
-    </nav>
   );
 }
 
