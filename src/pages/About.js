@@ -6,7 +6,7 @@ const About = () => {
         <>
         {/* Place Holder for the about section */}
 
-        <p>The Name of the organization is call. The Grand Gedeh Association in the Diaspora (GGAD) INC
+        <p className="intro">The Name of the organization is call. The Grand Gedeh Association in the Diaspora (GGAD) INC
 Was founded in 2017 with the goal of providing humanitarian service to Grand Gedians in the diaspora, in Grand Gedeh County and Liberia at large though:
 
 - Educational development by providing scholarships, and conducive education environment for students
